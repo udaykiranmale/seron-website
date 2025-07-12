@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Seron</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .masthead {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .masthead img {
+      width: 50px;
+      height: 60px;
+      vertical-align: middle;
+    }
+
+    .masthead h1 {
+      display: inline-block;
+      font-size: 32px;
+      font-weight: 700;
+      color: #2196f3;
+      margin-left: 10px;
+      letter-spacing: 1.4px;
+    }
+
+    .masthead p {
+      color: #bbb;
+      margin: 10px 0;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2196f3;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 16px;
+    }
+
+    .contact-wrapper {
+      display: inline-block;
+      position: relative;
+      margin-left: 6px;
+    }
+
+    .contact-btn {
+      background: none;
+      border: none;
+      color: #2196f3;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 2px 6px;
+    }
+
+    .contact-menu {
+      display: none;
+      position: absolute;
+      top: 22px;
+      right: 0;
+      background-color: #111;
+      border: 1px solid #333;
+      border-radius: 6px;
+      padding: 10px;
+      z-index: 100;
+      text-align: left;
+      min-width: 200px;
+    }
+
+    .contact-menu a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+
+    .contact-menu a:hover {
+      color: #2196f3;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    .section-body {
+      font-size: 16px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .section-bullets li {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      margin: 50px 0 30px;
+      font-weight: bold;
+      color: #ccc;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #222;
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="masthead">
+      <img src="assets/logo.png" alt="Seron Logo">
+      <h1>Seron</h1>
+      <p>A new way to share life together —<br>authentic, collaborative, and live.</p>
+      <p>Version 1.0.0</p>
+      <p>
+        Made with ❤️ by Uday Kiran Male
+        <span class="contact-wrapper">
+          <button onclick="toggleContact()" class="contact-btn">Contact ⌄</button>
+          <div id="contactMenu" class="contact-menu">
+            <a href="tel:++91703602591">📞 +91 70360 23591</a>
+            <a href="mailto:udaykiranmale@gmail.com">📧 udaykiranmale@gmail.com</a>
+          </div>
+        </span>
+      </p>
+      <a href="https://drive.google.com/uc?export=download&id=19ylzC5XvcfAcwUukc4MPvQCnLNrz0Koq" class="download-btn" download>Download APK</a>
+    </div>
+
+    <hr>
+
+    <h2>🟣 What is Seron?</h2>
+    <div class="section-body">
+      Seron is a new kind of social experience — one that prioritizes authentic connection over attention.
+      It’s a platform where you and your friends build shared moments together — not for likes, not for clout, but for real presence.
+      <br><br>
+      You create a Scene — a snapshot of what you’re doing right now — and your invited friends can add their own updates to that scene, instantly and collaboratively.
+      It’s like creating a digital memory together, as it happens.
+    </div>
+
+    <h2>🔄 How Seron Works</h2>
+    <ul class="section-body section-bullets">
+      <li>1. Create a Scene – Post a photo, a moment, a vibe — and invite specific friends to join.</li>
+      <li>2. Subscenes from Friends – Invited friends can reply with their own updates.</li>
+      <li>3. Real-Time Vibes – Not yesterday’s feed. It’s about today. What’s happening now?</li>
+    </ul>
+
+    <h2>🤝 Why Seron is Different</h2>
+    <ul class="section-body section-bullets">
+      <li>• No Likes. No Public Metrics – Post to connect, not to compete.</li>
+      <li>• Friends, Followers & Following –</li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;• Friends: Mutual. You both can add to each other's scenes.</li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;• Followers: They see your public scenes, but can’t join.</li>
+      <li>&nbsp;&nbsp;&nbsp;&nbsp;• Following: Keep up with people you care about.</li>
+      <li>• Know what your friends are doing now — and tell them what you're doing.</li>
+    </ul>
+
+    <h2>🔒 Your Privacy, Our Priority</h2>
+    <ul class="section-body section-bullets">
+      <li>• You control who sees your post — private or public.</li>
+      <li>• Scenes are private to invited friends unless shared publicly.</li>
+      <li>• No ads. No selling data. Ever.</li>
+      <li>• We protect your authentic self — always.</li>
+    </ul>
+
+    <h2>🚀 Why Seron Matters</h2>
+    <div class="section-body">
+      In a world full of filters, noise, and follower counts, Seron is a space to just be real.
+      <br><br>
+      No pressure to be perfect. No anxiety over engagement.
+      Just connection, memory, and presence.
+      <br><br>
+      Because life’s best moments aren’t for the timeline — they’re for your people. And Seron is where that happens.
+    </div>
+
+    <h2>💬 Keep Building With Us</h2>
+    <div class="section-body">
+      Seron is growing — and we’re building it with you.
+      <br><br>
+      Use the built-in Feedback tool to suggest features, report issues, or share ideas.
+      <br><br>
+      Let’s shape the future of social media together — one authentic moment at a time.
+    </div>
+
+    <div class="footer">
+      Seron — Real Friends. Real Time. Real You.
+    </div>
+  </div>
+
+  <script>
+    function toggleContact() {
+      const menu = document.getElementById('contactMenu');
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+      // Close on outside click
+      window.addEventListener('click', function hideOnOutside(e) {
+        if (!menu.contains(e.target) && e.target.className !== 'contact-btn') {
+          menu.style.display = 'none';
+          window.removeEventListener('click', hideOnOutside);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
